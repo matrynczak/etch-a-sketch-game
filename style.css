@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item {
+    aspect-ratio: 1;
+    border: solid 2px black;
+    margin: -2px 0 0 -2px;
+}
+
+.active {
+    background-color: green;
+}
+
+#container {
+    height: 1000px;
+    width: 1000px;
+}
+
+#grid-shape-btn {
+    width: 100px;
+    height: 40px;
+    background-color: aqua;
+    margin-bottom: 2%;
+    border-radius: 3px;
+}
